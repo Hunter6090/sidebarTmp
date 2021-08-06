@@ -17,17 +17,17 @@ export const  SidebarData =[
 	},
 	{
 		title:'組員介紹',
-		path:'/member_introduction',
+		path:'/member',
 		cName: 'nav-text'
 	},
 	{
 		title:'介紹PID',
-		path:'/what_is_PID',
+		path:'/aboutpid',
 		cName: 'nav-text'
 	},
 	{
-		title:'如何形成',
-		path:'/how to do',
+		title:'可能的方法',
+		path:'/method',
 		cName: 'nav-text'
 	},
 	{
@@ -36,13 +36,8 @@ export const  SidebarData =[
 		cName: 'nav-text'
 	},
 	{
-		title:'可能方法',
-		path:'/possible_method',
-		cName: 'nav-text'
-	},
-	{
-		title:'可能性',
-		path:'/feasibiluty',
+		title:'架構',
+		path:'/architecture',
 		cName: 'nav-text'
 	},
 	{

@@ -7,7 +7,9 @@
 }
 
 .home, .introduction, .member_introduction{
-  background-color: rgb(71, 50, 40);
+  /*background-color: rgb(71, 50, 40);*/
+  /*background-image: url('./img/bgPic.jpg');*/
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./img/bgPic.jpg);
   display: flex;
   height: 100vh;
   min-width: 600px;
