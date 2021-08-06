@@ -2,27 +2,28 @@ import React from 'react';
 import './styles.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import Pic1 from "../img/pic1.jpg";
-import Pic2 from "../img/pic2.jpg";
+import Pic1 from "../img/pidmd1.jpg";
+import Pic2 from "../img/pidpic.jpg";
+
 
 function Home(){
 	return(
 		<div className= 'home'>
-			<Container>
+			<Container >
                 <Row className= 'header'>
                     <Col>
-                    	<div className= 'headerText'>Title</div>
+                    	<div className= 'headerText'>PID風扇控制</div>
                     </Col>
                 </Row>
                 <Row className= 'contentLayout'>
                 	<Col md={6}>
-                		<div>
-                			Maybe you wanna add some info here :)
+                		<div className= 'videocol'>
+                			影片欄位 :)
                 		</div>
                 	</Col>
                 	<Col md={6}>
                 		<div className='rightContentLayout'>
-                			Here you can do some description to the figure
+                			PID風扇控制相關資訊，
 	                		<div>
 	                			<img className= 'pic1Layout' src ={Pic1} />
 	                		</div>

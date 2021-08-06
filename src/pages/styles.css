@@ -1,23 +1,32 @@
+
 .class{
-	heigth: 20vh;
+	height: 20vh;
 	align-items: center;
 }
-.headerLayout{
-}
+/*.headerLayout{
+	
+}*/
+
+
 .headerText{
-	font-size: 50px;
+	font-size: 40px;
 	text-align: center;
 }
 
 .contentLayout{
-	heigth: 50vh;
+	height: 50vh;
   	align-items: center;
+	  text-align: center;
+
 }
 .rightContentLayout{
 	width: 500px;
-	height: 800px;
+	height: 600px;
 	position: relative;
   	padding-top: 10vh;
+	font-size:25px ;
+	
+	
 }
 .pic1Layout{
 	width: 500px;
@@ -49,4 +58,7 @@
 	bottom: 20%;
 	right: -30%;
 	z-index: 1000;
+}
+.videocol{
+	font-size: 30px;
 }

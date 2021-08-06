@@ -6,40 +6,48 @@ import * as IoIcons from 'react-icons/io';
 
 export const  SidebarData =[
 	{
-		title:'Home',
+		title:'首頁',
 		path:'/',
-		icon: <AiIcons.AiFillHome />,
 		cName: 'nav-text'
 	},
 	{
-		title:'Reports',
-		path:'/reports',
-		icon: <IoIcons.IoIosPaper />,
+		title:'專題介紹',
+		path:'/introduction',
 		cName: 'nav-text'
 	},
 	{
-		title:'Products',
-		path:'/products',
-		icon: <FaIcons.FaCartPlus />,
+		title:'組員介紹',
+		path:'/member_introduction',
 		cName: 'nav-text'
 	},
 	{
-		title:'Team',
-		path:'/team',
-		icon: <IoIcons.IoMdPeople />,
+		title:'介紹PID',
+		path:'/what_is_PID',
 		cName: 'nav-text'
 	},
 	{
-		title:'Message',
-		path:'/message',
-		icon: <FaIcons.FaEnvelopeOpenText />,
+		title:'如何形成',
+		path:'/how to do',
 		cName: 'nav-text'
 	},
 	{
-		title:'Support',
-		path:'/support',
-		icon: <IoIcons.IoMdHelpCircle />,
+		title:'過程',
+		path:'/process',
 		cName: 'nav-text'
 	},
-
+	{
+		title:'可能方法',
+		path:'/possible_method',
+		cName: 'nav-text'
+	},
+	{
+		title:'可能性',
+		path:'/feasibiluty',
+		cName: 'nav-text'
+	},
+	{
+		title:'成果',
+		path:'/results',
+		cName: 'nav-text'
+	},
 ]
