@@ -1,4 +1,3 @@
-
 *{
   box-sizing:  border-box;
   margin: 0;
@@ -6,17 +5,67 @@
   font-family: 'Lato', snans-serif;
 }
 
-.home, .introduction, .member_introduction{
+.AppLaout{
   /*background-color: rgb(71, 50, 40);*/
   /*background-image: url('./img/bgPic.jpg');*/
   background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./img/bgPic.jpg);
   display: flex;
-  height: 100vh;
+  height: 91.5vh;
   min-width: 600px;
+  /*padding-left: 250px;*/
 
  
   color: #FFF;
   /*align-items: center;*/
   justify-content: center;
   font-size: 3rem;
+}
+.pageTitle{
+  text-align: center;
+}
+
+
+.pageMainLayout{
+  height: 60vh;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #FFF;
+}
+.pageMainFigure{
+  /*text-align: center;*/
+  background-color: darkblue;
+  align-items: center;
+  height: 500px;
+  width: 80%;
+  border: 1px solid #FFF;
+}
+
+/*組員介紹頁*/
+.memberMainLayout{
+  height: 60vh;
+  width: 100%;
+  border: 1px solid #FFF;
+  margin-top: 100px;
+  overflow-y: scroll;
+  ::-/*webkit-scrollbar {
+  width: 5px;
+  }*/
+}
+
+.memberSection{
+  height: 50vh;
+  border: 1px solid #FFF;
+  margin: 20px; 
+  padding: 20px;
+}
+.avatarSection{
+  border: 1px solid #333;
+  /*height: 100%;*/
+}
+.memberIntro{
+  border: 1px solid red;
+  height: 100%;
+}
+.introTitle{
+  font-size: 1.5rem;  
 }

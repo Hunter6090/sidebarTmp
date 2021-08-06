@@ -8,7 +8,7 @@ import Pic2 from "../../img/pidpic.jpg";
 
 function Home(){
 	return(
-		<div className= 'home'>
+		<div className= 'AppLaout'>
 			<Container >
                 <Row className= 'header'>
                     <Col>

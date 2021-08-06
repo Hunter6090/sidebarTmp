@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function Process(){	
 	return(
-		<div className= 'introduction'>
+		<div className= 'AppLaout'>
 			<Container >
                 <Row >
                     <Col>
