@@ -21,9 +21,8 @@ function Introduction(){
 	            			專題介紹
 	                	</div>
 	                </Row>
-	                <Row className='pageMainLayout'>
-	            		<div className='pageMainFigure'>
-	            			<img className= 'pic1Layout' src ={Pic1} />
+	                <Row>
+	            		<div className='introMainLayout'>
 	                	</div>
 	                </Row>
                 </motion.div>

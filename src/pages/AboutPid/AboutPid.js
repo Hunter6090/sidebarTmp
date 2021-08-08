@@ -14,28 +14,14 @@ function AboutPid(){
 					exit={{opacity: 0}}
 					transition={{ duration: 1 }}
 				>
-	                <Row >
-	                    <Col>
-	                    	<div></div>
-	                    </Col>
+	                <Row className='pageTitle'>
+	            		<div>
+	            			介紹PID
+	                	</div>
 	                </Row>
-	                <Row >
-	                	<Col md={5}>
-	                		<div>
-	                			
-	                		</div>
-	                	</Col>
-	                	<Col md={5}>
-	                		<div >
-	                			介紹PID
-		                		<div>
-		                			
-		                		</div>
-		                		<div>
-		                			
-		                		</div>
-	                		</div>
-	                	</Col>
+	                <Row>
+	            		<div className='introMainLayout'>
+	                	</div>
 	                </Row>
                 </motion.div>
             </Container>

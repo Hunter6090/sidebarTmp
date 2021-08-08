@@ -1,6 +1,7 @@
 /*.body{font-family:微軟正黑體!important;}*/
 .navbar{
 	background-color: rgba(0, 0, 0, 1);
+	width: 100%;
 	/*opacity: 1;*/
 	height: 80px;
 	display: flex;
