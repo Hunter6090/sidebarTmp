@@ -35,11 +35,6 @@
 	z-index: 100;
 	top: 35%;
 	opacity: 100%;
-  	transition-property: opacity ;
-  	transition-duration: 1s;
-}
-.pic1Layout:hover{
-	opacity: 0%;
 }
 .pic2Layout{
 	width: 500px;
@@ -48,16 +43,6 @@
 	bottom: 20%;
 	right: -30%;
 	z-index: 0;
-  	transition-property: width height z-index ;
-  	transition-duration: 1s;
-}
-.pic2Layout:hover{
-	width: 530px;
-	height: 330px;
-	position: absolute;
-	bottom: 20%;
-	right: -30%;
-	z-index: 1000;
 }
 .videocol{
 	font-size: 30px;
